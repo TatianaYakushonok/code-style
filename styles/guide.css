@@ -1,0 +1,24 @@
+
+.guide-title {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.guide-item {
+  width: 49%;
+  display: inline-block;
+}
+
+.guide-item:not(:last-child) {
+  margin-right: 1%;
+}
+
+.guide-link .guide-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #c1c1c1;
+}
+
+.guide-link:hover .guide-title {
+  text-decoration: underline;
+}

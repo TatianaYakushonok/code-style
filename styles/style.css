@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #323232;
+  background-color: #fff;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+figure,
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
