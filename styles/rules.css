@@ -1,0 +1,39 @@
+.rules-container {
+  width: 800px;
+}
+
+.rules-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.list {
+  padding: 10px 0;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list-item::before {
+  content: '\2014';
+  display: inline-block;
+  padding-right: 6px;
+}
+
+.list-figure {
+  width: 48%;
+  display: inline-block;
+}
+
+.list-figure:not(:last-child) {
+  margin-right: 2%;
+}
+
+.list-figcaption {
+  margin-bottom: 10px;
+}
+
+.rules-blockquote {
+  border-left: 3px solid #383838;
+  padding-left: 20px;
+}

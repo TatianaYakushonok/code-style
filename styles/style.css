@@ -5,6 +5,7 @@
 body {
   font-family: Arial, sans-serif;
   color: #323232;
+  line-height: 1.5;
   background-color: #fff;
 }
 
@@ -14,6 +15,7 @@ h1,
 h2,
 h3,
 figure,
+blockquote,
 body {
   margin: 0;
 }
@@ -21,6 +23,10 @@ body {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+ol {
+  padding-left: 20px;
 }
 
 img {
@@ -39,4 +45,21 @@ a {
   padding: 0 30px;
 }
 
-/*f9faea, f0f8ff, #fefaef, #FA528F*/
+.section {
+  padding: 18px 0;
+}
+
+.section h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.link-back {
+  display: inline-block;
+  margin-bottom: 15px;
+}
