@@ -2,10 +2,6 @@
   width: 800px;
 }
 
-.rules-item:not(:last-child) {
-  margin-bottom: 20px;
-}
-
 .list {
   padding: 10px 0;
 }
